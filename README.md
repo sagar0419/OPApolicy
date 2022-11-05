@@ -146,5 +146,5 @@ kubectl delete -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper
 ```
 
 
-`Document is completed. You can use the files mentioned in the repo to implement the policies or you can get these files from the [Gatekeeper website](https://open-policy-agent.github.io/gatekeeper-library/website/) `
+Document is completed. You can use the files mentioned in the repo to implement the policies or you can get these files from the [Gatekeeper website](https://open-policy-agent.github.io/gatekeeper-library/website/) 
 
