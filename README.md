@@ -90,7 +90,7 @@ To apply the constraint run the below mentioned command.
 kubectl apply -f  <constraint-file.yaml>
 ```
 
-## Test.
+## Test
 
 In order to test the policy which we have applied just now, we need to check whether we can create a loadbalancer as service or not. But before jumping on that lets just check the CRD of constraint and constraint template is created or not.
 
@@ -130,7 +130,7 @@ spec:
       targetPort: 80
 ```
 
-# Clean up.
+# Clean up
 
 To clean your cluster delete the constraint and contraint template file.
 
@@ -146,5 +146,5 @@ kubectl delete -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper
 ```
 
 
-`Document is completed. You can use the files mentioned in the repo to implement the policies or you can get these files from the [Gatekeeper website](https://open-policy-agent.github.io/gatekeeper-library/website/)
+`Document is completed. You can use the files mentioned in the repo to implement the policies or you can get these files from the [Gatekeeper website](https://open-policy-agent.github.io/gatekeeper-library/website/) `
 
